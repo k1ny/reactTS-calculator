@@ -41,7 +41,7 @@ function App() {
           result = prev * current;
           break;
         case "/":
-          if (prev === 0) result = NaN;
+          if (current === 0) result = NaN;
           else result = prev / current;
           break;
         default:
